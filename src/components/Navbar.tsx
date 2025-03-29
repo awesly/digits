@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
   const role = userWithRole?.randomKey;
   const pathName = usePathname();
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" expand="lg" >
       <Container>
         <Navbar.Brand href="/">digits</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
                     Add Stuff
                   </Nav.Link>,
                   <Nav.Link id="list-stuff-nav" href="/list" key="list" active={pathName === '/list'}>
-                    List Stuff
+                    List Contacts
                   </Nav.Link>,
                 ]
               : ''}

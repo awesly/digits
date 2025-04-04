@@ -19,6 +19,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'www.ics.hawaii.edu',
           },
+          {
+            protocol: 'http',
+            hostname: 'www2.hawaii.edu',
+          },
           // Wildcard version that would cover all subdomains of ics.hawaii.edu:
         {
              protocol: 'https',

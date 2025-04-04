@@ -31,6 +31,7 @@ export const AddContactSchema = Yup.object({
   address: Yup.string().required(),
   image: Yup.string().url().required(),
   description: Yup.string().required(),
+  owner: Yup.string().required(),
 });
 
 export const EditContactSchema = Yup.object({
